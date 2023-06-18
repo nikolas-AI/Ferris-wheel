@@ -6,7 +6,7 @@
     max-width: 500px;
     border: 2px solid black;
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 20%;
     /* animation-name: wheel;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -46,12 +46,29 @@
     background-color: red;
     width: 20%;
     height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transform-origin: 50% 0%;
     /* animation-name: cabins;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; */
     animation: cabins 10s ease-in-out infinite;
+}
+
+.cabin .cap{
+    background-color: black;
+    height: 40%;
+    width: 80%;
+    border-radius: 50% 50% 0 0;
+    
+}
+.cabin .body{
+    background-color: green;
+    height: 60%;
+    width: 80%;
+
 }
 
 .cabin:nth-of-type(1) {
